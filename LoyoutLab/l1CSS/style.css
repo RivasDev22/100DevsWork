@@ -1,0 +1,32 @@
+*{
+	box-sizing: border-box;
+}
+
+html, body{
+  height: 100vh;
+  margin: 0;
+}
+
+header, footer{
+	border: solid 3px black;
+	background: gray;
+	height: 15vh;
+	width: 100%;
+	clear: both;
+}
+
+section > div{
+	border: solid 3px black;
+	background: gray;
+	height: 30vh;
+	width: 33.3333%;
+	float: left;
+}
+
+article > section{
+	border: solid 3px black;
+	background: gray;
+	height: 40vh;
+	width: 50%;
+	float: left;
+}
